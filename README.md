@@ -3,17 +3,30 @@
 > `.chomp` is overrated use *dime*.
 
 #Usage
-The usage is so simple a baby could write it:
+For console input:
 ```ruby
 require "dime"
 
-name = Dime.in("What is your name? ")
-puts name
+name = Dime.sin("What is your name? ")
+puts "Hello, #{name}!"
 ```
+Run with: `ruby [*NAME_OF_FILE*].rb`
+
+For command line args:
+```ruby
+require "dime"
+
+name = Dime.cin("name")
+puts "Hello, #{name}!"
+```
+Run with: `ruby [*NAME_OF_FILE*].rb name "Franklin D. Roosevelt"`
 
 #Installation
 Just a one-liner:
 `gem install dime`
+
+#News
+#####Dime 0.0.2 released featuring command line arguments.
 
 #Accepting Bitcoin Donations
 <a href="http://www.coinbase.com/blubrackets">Just a *dime* or to...</a>
