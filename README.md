@@ -1,4 +1,4 @@
-<img src="icon.png">
+<img src="icon.png" width="50" height="50">
 #Dime
 > `.chomp` is overrated use *dime*.
 
