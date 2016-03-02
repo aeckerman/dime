@@ -19,7 +19,7 @@ require "dime"
 name = Dime.cin("name")
 puts "Hello, #{name}!"
 ```
-Run with: `ruby [*NAME_OF_FILE*].rb name "Franklin D. Roosevelt"`
+Run with: `ruby [*NAME_OF_FILE*].rb andrew`
 
 #Installation
 Just a one-liner:
