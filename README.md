@@ -2,7 +2,7 @@
 #Dime
 > `.chomp` is overrated use *dime*.
 
-[![Gem](https://img.shields.io/gem/blubrackets/dime.svg)]()
+<img src="https://img.shields.io/badge/downloads-237-blue.svg">
 
 #Usage
 For console input:
