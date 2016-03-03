@@ -2,6 +2,8 @@
 #Dime
 > `.chomp` is overrated use *dime*.
 
+[![Gem](https://img.shields.io/gem/blubrackets/dime.svg)]()
+
 #Usage
 For console input:
 ```ruby
