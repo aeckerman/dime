@@ -5,7 +5,7 @@ class Dime
 	end
 
 	def self.cin(name, pos) #Command line input..
-		unless ARGV.length do == 1
+		if ARGV.length == 0
 			puts "Error: expected argument #{name}."
 			name = name.upcase
 			script_name = __FILE__
