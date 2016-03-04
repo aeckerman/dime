@@ -4,13 +4,13 @@ class Dime
 		return gets.chomp
 	end
 
-	def self.cin(name) #Command line input..
+	def self.cin(name, pos) #Command line input..
 		unless ARGV.length do == 1
 			puts "Error: expected argument #{name}."
 			name = name.upcase
 			script_name = __FILE__
 			puts "Usage: ruby #{script_name} [#{name}]"
 		end
-		return ARGV[0]
+		return ARGV[pos]
 	end
 end

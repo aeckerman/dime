@@ -18,10 +18,15 @@ For command line args:
 ```ruby
 require "dime"
 
-name = Dime.cin("name")
-puts "Hello, #{name}!"
+name = Dime.cin("name", 0)
+last_name = Dime.cin("last_name", 1)
+age = Dime.cin("age", 2)
+mom = Dime.cin("mom", 3)
+dad = Dime.cin("dad", 4)
+
+puts "Your name is #{name} #{last_name}, you are #{age} years old. Your parents are #{mom} and #{dad}." 
 ```
-Run with: `ruby [*NAME_OF_FILE*].rb andrew`
+Run with: `ruby [*NAME_OF_FILE*].rb Andrew Eckerman 13 April Nick`
 
 #Installation
 Just a one-liner:
